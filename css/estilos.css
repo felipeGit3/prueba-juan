@@ -1,0 +1,49 @@
+:root
+{
+    --color-principal: #eb4034;
+    --color-parrafo: #395ead;
+    --color-amarillo: orange;
+}
+body
+{
+    background-color: var(--color-amarillo);
+}
+li
+{
+    list-style-type: none;
+}
+ul
+{
+    display: flex;
+}
+h1
+{
+    color: var(--color-principal);
+    font-weight: 700;
+    font-size: 35px;
+}
+.parrafo
+{
+    color: var(--color-parrafo);
+}
+.img-principal
+{
+    width: 100px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+@media (min-width: 500px)
+{
+    h1
+    {
+        font-size: 95px;
+        display: none;
+    }
+    .img-principal
+    {
+        width: 500px;
+    }
+    
+}
